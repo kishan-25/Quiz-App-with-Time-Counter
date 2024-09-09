@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App with countdown timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1 id="question">Question 1</h1>
+            <div id="options-container">
+
+            </div>
+        </div>
+        <div id="timer-container">
+            <p id="timer">00:00</p>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        <button id="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+
+        <div id="results-container">
+            <h1>Quiz Result</h1>
+            <p id="score">Your Score: 0</p>
+            <p id="correct-answers">Correct Answers: 0</p>
+            <p id="incorrect-answers">Incorrect Answers: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
